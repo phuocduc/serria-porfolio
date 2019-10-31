@@ -48,3 +48,13 @@
     font-weight: 500;
     margin-bottom:15px;
 }
+
+
+.contact-slider-img{
+    height:310px;
+    background-image: url(../image/slider-hand-holding.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}

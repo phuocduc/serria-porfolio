@@ -44,6 +44,7 @@ export default function Footerr() {
           </MDBCol>
           <MDBCol md="4">
             <ul className="footer-list">
+            <div className="footer-info-title">Information</div>
               <Link to="/dashboard">Home</Link>
               <Link href="#features">About</Link>
               <Link href="#product">Product</Link>
@@ -53,7 +54,7 @@ export default function Footerr() {
           </MDBCol>
 
             <MDBCol md="4">
-
+            
             <div className="footer-address">
               <FontAwesomeIcon icon={MapMakerIconDefinition} />  109/4G, Le Van
               Khuong Street, Hiep Thanh ward, Dist 12, Ho Chi Minh City

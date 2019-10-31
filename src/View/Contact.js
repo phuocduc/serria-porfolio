@@ -1,14 +1,15 @@
 import React from "react";
 import "../css/Contact.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col ,Image} from "react-bootstrap";
 import Navbarr from "../Components/Navbarr";
 import Brand from "../Components/Brand";
 import Footerr from "../Components/Footerr";
+import sliderhandholder from '../image/slider-hand-holding.jpg'
 
 // font awsome react
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { fas } from "@fortawesome/free-solid-svg-icons";
+import { fas, faHandHolding } from "@fortawesome/free-solid-svg-icons";
 import {
   IconLookup,
   IconDefinition,
@@ -31,17 +32,21 @@ const CVIconDefinition: IconDefinition = findIconDefinition(CV);
 // import googlemap
 // end import googlemap
 export default function Contact() {
+ 
   return (
     <Container fluid={true} className="dashboard-page">
       {/* navbar */}
-      <Row className="brand-navbar">
+      <Row className="brand-navbar" id='nav_bar'>
         <Brand />
         <Navbarr />
       </Row>
       {/* end navbar */}
+      <div className="contact-slider-img">
 
+      {/* <Image src={sliderhandholder} fluid   /> */}
+      </div>
       {/* contact info  */}
-      <Row className="contact-info-map">
+      <Row className="contact-info-map mt-5">
         <Col md={6} xs={12}>
         <div className="contact-info">
           <div className="contact-info-row">

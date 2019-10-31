@@ -22,8 +22,17 @@
 .footer-list{
     display: flex;
     flex-direction: column;
-    
 }
+
+.footer-info-title{
+    color:white;
+    opacity: .85;
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 
 .footer-list a{
     text-decoration: none;
