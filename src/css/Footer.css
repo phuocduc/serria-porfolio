@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-cover{
+    background-color: #282C2F;
+}
+
+.footer-content{
+    color: white !important;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size:1.5rem;
+}
+.footer-sentence{
+    color:#A29F9B;
+
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-list a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer-list a:hover{
+    color:#A29F9B;
+}
+
+.footer-copyright{
+    color:white;
+}
+
+.footer-copyright a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.footer-address{
+    color:white;
+}
+
+.footer-address a{
+    color:white;
+}

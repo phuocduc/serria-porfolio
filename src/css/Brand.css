@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo-icon{
+    color:#4294B7 !important;
+    font-size: 21pt;
+    font-weight: 500;
+    margin-left: 33px;
+}

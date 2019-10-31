@@ -4,6 +4,7 @@ import './App.css';
 import Login from './View/Login'
 import Dashboard from './View/Dashboard'
 import Candidates from './View/Candidates';
+import Contact from './View/Contact';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Route path="/" exact component={Login}></Route>
       <Route path="/login" exact component={Login}></Route>
       <Route path="/dashboard" exact component={Dashboard}></Route>
-      <Route path="/candidates" exact component={Candidates}></Route>
-
+      <Route path="/candidates/:id/:edit" exact component={Candidates}></Route>
+      <Route path="/contact" exact component={Contact}></Route>
+ 
     </Switch>
     // <Route></Route>
     // <Route></Route>

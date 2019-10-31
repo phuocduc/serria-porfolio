@@ -1,0 +1,50 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.brand-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact-info-contactWord{
+    font-size: 21pt;
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+}
+
+.contact-info-contactSentence{
+    margin: 1rem 0rem 0rem 0rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f36c36;            
+}
+
+.google-map{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-info-map{
+    justify-content: space-around;
+    margin:0;
+    padding: 0;
+}
+
+.contact-cv{
+    text-decoration: none !important;
+    color: black;
+    margin-left:5px;
+}
+
+.contact-sacredfire-word{
+    font-size: 15pt;
+    font-weight: 500;
+    margin-bottom:15px;
+}

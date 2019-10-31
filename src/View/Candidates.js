@@ -68,7 +68,7 @@ export default function Candidates() {
                     <ListGroupItem>{job_title}</ListGroupItem>
                   </ListGroup>
                   <Card.Body>
-                    <Card.Link>Edit</Card.Link>
+                    <Card.Link href={`/candidates/${id}/edit`}>Edit</Card.Link>
 
                     <Card.Link href={`/candidates/${id}`} onClick={()=>onDeleteHandle(id)}>Delete</Card.Link>
                   </Card.Body>
