@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.brand-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv {
+  font: 100% sans-serif;
+  margin: 0em;
+  background-color: #fff;
+  
+}
+
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  
+}
+
+a {
+  color: #3d6dbe;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #6594e0;
+}
+
+.pcv-head {
+  font-size: 1em;
+  line-height: 0.5;
+}
+img {
+  max-width: 200px;
+  width: 100%;
+}
+
+.cv-header {
+  background-color: #999;
+  background-image: url(../image/bg_dashboard.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 4em;
+  text-align: center;
+  height: 310px;
+  color: #ea5d0a; 
+}
+
+.cv-perso-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color:#666666;
+}
+
+.pcvperso-info {
+  display: flex;
+  justify-content: center;
+}
+
+.cv-perso-info h1 {
+  text-align: center;
+}
+
+.pcvperso-info {
+  text-align: center;
+}
+
+.cvskill {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cvskill-ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cvskill-ul div {
+  display: flex;
+  flex-direction: column;
+}
+.cvskill-ul div li{
+  list-style-type: none;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+  border-bottom: none;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  margin-left: 14rem;
+  margin-right: 14rem;
+}
+
+
+.edu-line{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.li-none{
+  list-style-type: none;
+  margin:5px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+ 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  background-image: url(../image/cap_gradua.png);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-all{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+
+.sgtech_img{
+  background-image: url(../image/saigontech_img.jpg);
+  max-width: 200px;
+  width: 100%;
+  height: 175px;
+}
+
+.csc_img{
+  background-image: url(../image/t3h_img.jpg);
+  max-width: 200px;
+  width: 100%;
+  height: 175px;
+}
+.coder_img{
+  background-image: url(../image/coderschool_img.png);
+  max-width: 200px;
+  width: 100%;
+  height: 175px;
+}
+
+.flip-front-title{
+  height: 124px;
+}

@@ -9,13 +9,13 @@ export default function Navbarr() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="nav-collapsee">
         <Nav className="navbar-wrap-inside mr-auto">
-          <Link to="/dashboard" className="navbar-linkk">
+          {/* <Link to="/dashboard" className="navbar-linkk">
             Home
-          </Link>
-          <Link className="navbar-linkk" href="#features">
+          </Link> */}
+          <Link to="/aboutMe" className="navbar-linkk">
             About
           </Link>
-          <Link className="navbar-linkk" href="#product">
+          <Link to="/product" className="navbar-linkk">
             Product
           </Link>
           <Link to="/login" className="navbar-linkk">

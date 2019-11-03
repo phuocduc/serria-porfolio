@@ -9,7 +9,7 @@ export default function Login() {
   const dispatch = useDispatch()
   const onSubmit = (e) =>{
     e.preventDefault()
-    history.push('/dashboard')
+    history.push('/aboutme')
     dispatch({type:'SIGN_IN',payload:currentUser})
   }
 

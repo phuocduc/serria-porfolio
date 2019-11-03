@@ -45,9 +45,9 @@ export default function Footerr() {
           <MDBCol md="4">
             <ul className="footer-list">
             <div className="footer-info-title">Information</div>
-              <Link to="/dashboard">Home</Link>
-              <Link href="#features">About</Link>
-              <Link href="#product">Product</Link>
+              {/* <Link to="/dashboard">Home</Link> */}
+              <Link to="/aboutMe">About</Link>
+              <Link to="/product">Product</Link>
               <Link to="/login">Login</Link>
               <Link to="/contact">Contact</Link>
             </ul>
