@@ -6,10 +6,10 @@ import Product from './View/Product'
 import Candidates from './View/Candidates';
 import Contact from './View/Contact';
 import AboutMe from './View/AboutMe';
-
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 function App() {
   return (
-  
+    
     <Switch>
 
       <Route path="/" exact component={Login}></Route>
