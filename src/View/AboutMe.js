@@ -17,12 +17,22 @@ export default function AboutMe() {
       {/* end navbar  */}
 
       {/* CV */}
+      <div className="img-about-cover">
+        <div className="intro-content">
+          <div className="table-cell">
+            <div className="container">
+            <h1 className="intro-title">Nguyễn Phước Đức</h1>
+            <p className="intro-subtitle">Front End Developer</p>
+          </div>
+          </div>
+        </div>
+      </div>
       <Col className="cv">
-        <div className="cv-header">
-          <img src={mypic} />
-          <h1>Nguyễn Phước Đức</h1>
-          <p className="pcv-head">Web Developer</p>
-          <p className="pcv-head">Computer Science</p>
+        <div className="cv-table-cell">
+          <img className="cv" src={mypic} />
+          {/* <h1>Nguyễn Phước Đức</h1>
+          <p className="pcv-head">Front End Developer</p> */}
+          {/* <p className="pcv-head">Computer Science</p> */}
         </div>
         <Col className="cv-perso-info">
           <h1>
@@ -74,6 +84,10 @@ export default function AboutMe() {
                 knowledge and being confidence in building websites and
                 projects.
               </p>
+              <p>
+                And, I believe the key to making good products is passisonate
+                and non-stop improving every day.
+              </p>
             </Col>
           </Row>
           <hr />
@@ -84,7 +98,7 @@ export default function AboutMe() {
 
           <div className="flip-card-all">
             {/* flip carrd saigontech */}
-            <Col md={4} xs={12} className="flip-card">
+            <div className="flip-card col-12 col-md-4">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className="edu-school">
@@ -112,10 +126,10 @@ export default function AboutMe() {
                   </div>
                 </div>
               </div>
-            </Col>
+            </div>
             {/* end flip card*/}
             {/* flip carrd  T3H*/}
-            <Col md={4} xs={12} className="flip-card">
+            <div className="flip-card col-12 col-md-4">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className="edu-school">
@@ -151,10 +165,10 @@ export default function AboutMe() {
                   </div>
                 </div>
               </div>
-            </Col>
+            </div>
             {/* end flip card CoderSchool*/}
             {/* flip carrd  */}
-            <Col md={4} xs={12} className="flip-card">
+            <div className="flip-card col-12 col-md-4">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <div className="edu-school">
@@ -176,7 +190,7 @@ export default function AboutMe() {
                   </div>
                 </div>
               </div>
-            </Col>
+            </div>
             {/* end flip card*/}
           </div>
         </Col>

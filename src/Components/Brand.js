@@ -12,9 +12,7 @@ export default function Brand() {
       <img
         alt=""
         src={Brand_logo}
-        width="40"
-        height="40"
-        className="d-inline-block align-top"
+        className="d-inline-block align-top img-brand"
       />
     </Navbar.Brand>
   </Navbar>

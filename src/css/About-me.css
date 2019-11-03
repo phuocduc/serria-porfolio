@@ -42,9 +42,44 @@ img {
   width: 100%;
 }
 
-.cv-header {
-  background-color: #999;
-  background-image: url(../image/bg_dashboard.jpg);
+.img-about-cover{
+  background-image: url(../image/bg_aboutme_bk.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.intro-content{
+  position: absolute;
+  text-align: center;
+  width:100%;
+  height:100%;
+  display: table;
+}
+
+.table-cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.intro-title{
+  font-size: 4.5rem;
+  color:white;
+}
+
+.intro-subtitle{
+  font-size:3.5rem;
+  color:white;
+}
+
+.cv-table-cell{
+  text-align: center;
+}
+
+.img-about {
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -53,9 +88,11 @@ img {
   background-size: cover;
   margin-bottom: 4em;
   text-align: center;
-  height: 310px;
-  color: #ea5d0a; 
 }
+
+
+
+
 
 .cv-perso-info {
   display: flex;
@@ -118,6 +155,20 @@ hr {
   margin:5px;
 }
 
+.flip-card-all{
+  display: flex;
+  
+
+}
+
+@media only screen and (max-width: 600px) {
+  .flip-card-all{
+    display: flex;
+    flex-direction: column;
+  
+  }
+}
+
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -161,12 +212,7 @@ hr {
   transform: rotateY(180deg);
 }
 
-.flip-card-all{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
 
-}
 
 .sgtech_img{
   background-image: url(../image/saigontech_img.jpg);
